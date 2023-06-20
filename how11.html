@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+        .nav-bar {
+            width: 1345px;
+            height: 40px;
+            background: green;
+            position: fixed;
+            border: none;
+            top: 0%;
+            left: 0%;
+        }
+        
+        .nav-bar a {
+            text-decoration: none;
+            color: black;
+            float: right;
+        }
+        
+        .nav-bar ul {
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .nav-bar li a {
+            padding: 10px;
+            background: lightgray;
+        }
+        
+        .nav-bar ul li a:hover {
+            background: blue;
+            color: red;
+        }
+        
+        .nav-bar ul li a:active {
+            background: blue;
+            color: red;
+        }
+        
+        .nav-bar li {
+            border-bottom: 1px solid #333;
+        }
+        
+        .nav-bar li:last-child {
+            border: none;
+        }
+        
+        img {
+            width: 20px;
+            height: 20px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        
+        .main {
+            width: 40px;
+            height: 40px;
+            background: green;
+            position: fixed;
+            border: none
+        }
+        
+        #img2 {
+            width: 200px;
+            height: 600px;
+            float: left;
+        }
+        
+        #img3 {
+            width: 300px;
+            height: 600px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="main">
+            <img src="bonus.jpg">
+        </div>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">article</a></li>
+            <li><a href="#">gallery</a></li>
+        </ul>
+    </div>
+    <img src="like.png" id="img3">
+    <img src="henry.jpg" id="img2">
+</body>
+
+</html>

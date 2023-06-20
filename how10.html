@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+        a:link {
+            color: orange;
+        }
+        
+        a:visited {
+            color: red;
+        }
+        
+        a:hover {
+            color: green;
+        }
+        
+        a:active {
+            color: pink;
+        }
+        
+        .true::after {
+            content: "-> true";
+            color: green;
+        }
+        
+        .false::after {
+            content: "-> false";
+            color: red;
+        }
+        
+        .true1::before {
+            content: "-> true";
+            color: green;
+        }
+        
+        .false1::before {
+            content: "-> false";
+            color: red;
+        }
+        
+        .h2:focus {
+            color: blue;
+            outline: 2px solid blue;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        li::before {
+            color: red;
+            content: "->";
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <P>Go to <a href="https://my.uat.edu.ng/">login</a></P>
+    <a href="" id="dd">go to</a>
+    <p class="true">birds can fly</p>
+    <p class="false">monkeys can fly</p>
+    <p class="true1"> this is a boy</p>
+    <p class="false1"> this is a boy</p>
+    <input type="text" class="h2" placeholder="type here">
+    <ul>
+        <li> mango</li>
+        <li> mango</li>
+        <li> mango</li>
+        <li> mango</li>
+        <li> mango</li>
+        <li> mango</li>
+    </ul>
+</body>
+
+</html>

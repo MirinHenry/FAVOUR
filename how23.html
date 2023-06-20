@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            min-width: 150px;
+            z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        a {
+            display: block;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button>GALLERY</button>
+        <div class="dropdown-content">
+            <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text">home</a>
+            <a href="#">contact</a>
+            <a href="#">about me</a>
+            <a href="#">gallery</a>
+            <p>Hello world</p>
+        </div>
+    </div>
+</body>
+
+</html>
